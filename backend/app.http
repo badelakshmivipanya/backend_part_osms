@@ -1,0 +1,17 @@
+Send Request
+POST http://localhost:3000/api/students/
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "course": "Mathematics",
+  "age": 20
+}
+
+
+
+
+Send Request
+GET http://localhost:3000/api/students/
+
